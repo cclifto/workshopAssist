@@ -1,5 +1,5 @@
 var bulletinBoardEl = document.querySelector('#bulletin-board')
-0
+
 console.log('here be javascript')
 $.get('https://tiy-bulletin-board.herokuapp.com/api/bulletin')
 	.then(handleResponse)
