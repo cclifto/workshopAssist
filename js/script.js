@@ -4,8 +4,6 @@ var bulletinBoardEl = document.querySelector('#bulletin-board')
 
 function handleResponse(bulletinsArray){
 
-	bulletinsArray = bulletinsArray.reverse()
-
 	var html = '<h2>bulletins loaded!</h2>'
 	//FOR every bulletin, we will write an HTML element and insert the content.
 	
